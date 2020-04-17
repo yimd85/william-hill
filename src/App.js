@@ -8,7 +8,7 @@ class App extends React.Component {
 
   componentDidMount() {
     axios.get('https://www.thesportsdb.com/api/v1/json/1/searchteams.php?t=new_york_knicks')
-      .then(res => this.setState(res.data.teams[0]))
+      .then(res => this.setState(res.data.teams[0]));
   }
 
   render() {
