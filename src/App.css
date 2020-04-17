@@ -1,0 +1,50 @@
+a, span{
+    color: orange
+}
+
+h1{
+    text-align: center;
+    color: orange;
+}
+
+.footer{
+    flex: 0,0;
+    width: 100%;
+    height: 70px;
+    background-color: #4F4D53
+}
+
+.footer_text{
+    color: orange;
+    text-align: center ;
+    padding: 25px;
+}
+
+.header_image{
+    margin-left: 20px;
+    height: 70px
+}
+
+.link_container{ 
+    flex-direction: row; 
+    padding: 25px 
+}
+
+.main_image{
+    width: 100%;
+    height: 520px
+}
+
+@media (max-width: 1000px) {
+    .main_image{
+        width: 100%;
+        height: 400px
+    }
+}
+
+@media (max-width: 500px) {
+    .main_image{
+        width: 100%;
+        height: 300px
+    }
+}
